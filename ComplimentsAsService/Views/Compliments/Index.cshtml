@@ -1,0 +1,13 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "A compliment for you";
+}
+
+@model ComplimentsAsService.Models.ComplimentModel
+
+<div class="jumbotron">
+    <h1 class="display-4">@Model.Message</h1>
+    <p class="lead">@Model.Subtitle</p>
+</div>
+
